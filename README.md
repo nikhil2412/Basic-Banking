@@ -22,3 +22,4 @@ Create a simple dynamic website which has the following specs.</br>
 **FRONT END**: HTML, CSS, JavaScript, Bootstrap
 **BACK END**: PHP
 **DATABASE**: MySQL
+**HOSTING**: XAMPP
