@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	
+}
+.intro{
+	background: #32cfc7;
+}
+h1{
+	color: rgb(252, 252, 252);
+	font-weight: bold;
+	transition: 0.5s;
+	text-align: center;
+	
+}
+h3{
+	transition: 0.5s;
+	color: rgb(255, 255, 255);
+}
+
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#39c7a3; 
+	color:rgb(255, 255, 255);
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+button:hover,h1:hover{
+	transform: scale(1.1);
+}
+button:hover{
+	background-color:#4C4B4B;
+}
+footer{
+
+	color:#c34ac7;
+	background-color:#cceff5;
+	letter-spacing: 0.5px;
+}
+footer p{
+	text-decoration: underline;
+	margin: 0;
+	font-size: 15px;
+}
+.im{
+
+	border: 5px solid orange;
+	border-radius: 50%;
+}
+.action{
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Roboto Slab', serif;
+}
+.background-image{
+		background-image: url('money.jpeg');
+
+		background-size:cover;
+		background-repeat: no-repeat;
+}
+
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 40px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+
+}
